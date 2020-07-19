@@ -17,7 +17,7 @@ CFLAGS = -g -O0 -Wpedantic --std=$(VERSION)
 TARGET = addNumbers
 
 # source cpp files
-SOURCES = main.cpp getIntFromUser.cpp add.cpp
+SOURCES = main.cpp getIntFromUser.cpp charIsNumber.cpp pow.cpp add.cpp
 
 # actual code
 

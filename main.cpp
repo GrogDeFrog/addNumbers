@@ -1,7 +1,7 @@
-#include <iostream>
+#include "add.h"
+#include "getIntFromUser.h"
 
-int getIntFromUser(std::string);
-int add(int, int);
+#include <iostream>
 
 int main() {
   int a = getIntFromUser("a");
